@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai tap JS buoi 7-8</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="row justify-content-center">
+        <div class="col-4 m-3">
+            <!-- Bài 1 ---------------------------------------->
+            <h3>Bài 1:</h3>
+            <div class="form-group">
+                <label for="">Tổng các số dương</label>
+                <input type="text" id="themso1" class="form-control" placegolder="Thêm số">
+            </div>
+            <button id="btn1" class="btn btn-success">Kết quả</button>
+            <div id="ketqua1" class="mt-2 alert alert-success"></div>
+        </div>
+        <div class="col-4 m-3">
+            <!-- Bài 2 ---------------------------------------->
+            <h3>Bài 2:</h3>
+            <div class="form-group">
+                <label for="">Đếm số dương</label>
+                <input type="text" id="themso2" class="form-control" placegolder="Thêm số">
+            </div>
+            <button id="btn2" class="btn btn-success">Kết quả</button>
+            <div id="ketqua2" class="mt-2 alert alert-success"></div>
+        </div>
+        <div class="col-4 m-3">
+            <!-- Bài 3 ---------------------------------------->
+            <h3>Bài 3:</h3>
+            <div class="form-group">
+                <label for="">Số nhỏ nhất</label>
+                <input type="text" id="themso3" class="form-control" placegolder="Thêm số">
+            </div>
+            <button id="btn3" class="btn btn-success">Kết quả</button>
+            <div id="ketqua3" class="mt-2 alert alert-success"></div>
+        </div>
+        <div class="col-4 m-3">
+            <!-- Bài 4 ---------------------------------------->
+            <h3>Bài 4:</h3>
+            <div class="form-group">
+                <label for="">Số dương nhỏ nhất</label>
+                <input type="text" id="themso4" class="form-control" placegolder="Thêm số">
+            </div>
+            <button id="btn4" class="btn btn-success">Kết quả</button>
+            <div id="ketqua4" class="mt-2 alert alert-success"></div>
+        </div>
+        <div class="col-4 m-3">
+            <!-- Bài 5 ---------------------------------------->
+            <h3>Bài 5:</h3>
+            <div class="form-group">
+                <label for="">Số chẵn cuối cùng</label>
+                <input type="text" id="themso5" class="form-control" placegolder="Thêm số">
+            </div>
+            <button id="btn5" class="btn btn-success">Kết quả</button>
+            <div id="ketqua5" class="mt-2 alert alert-success"></div>
+        </div>
+        <div class="col-4 m-3">
+            <!-- Bài 6 ---------------------------------------->
+            <h3>Bài 6:</h3>
+            <div class="form-group">
+                <label for="">Đổi chỗ 2 giá trị</label>
+                <input type="text" id="themso6" class="form-control" placegolder="Thêm số">
+                <label for="">Vị trí 1</label>
+                <input type="text" id="p1" class="form-control" placegolder="Thêm số">
+                <label for="">Vị trí 2</label>
+                <input type="text" id="p2" class="form-control" placegolder="Thêm số">
+            </div>
+            <button id="btn6" class="btn btn-success">Kết quả</button>
+            <div id="ketqua6" class="mt-2 alert alert-success"></div>
+        </div>
+        <div class="col-4 m-3">
+            <!-- Bài 7 ---------------------------------------->
+            <h3>Bài 7:</h3>
+            <div class="form-group">
+                <label for="">Sắp xếp tăng dần</label>
+                <input type="text" id="themso7" class="form-control" placegolder="Thêm số">
+            </div>
+            <button id="btn7" class="btn btn-success">Kết quả</button>
+            <div id="ketqua7" class="mt-2 alert alert-success"></div>
+        </div>
+        <div class="col-4 m-3">
+            <!-- Bài 8 ---------------------------------------->
+            <h3>Bài 8:</h3>
+            <div class="form-group">
+                <label for="">Số nguyên tố đầu tiên</label>
+                <input type="text" id="themso8" class="form-control" placegolder="Thêm số">
+            </div>
+            <button id="btn8" class="btn btn-success">Kết quả</button>
+            <div id="ketqua8" class="mt-2 alert alert-success"></div>
+        </div>
+        <div class="col-4 m-3">
+            <!-- Bài 9 ---------------------------------------->
+            <h3>Bài 9:</h3>
+            <div class="form-group">
+                <label for="">Đếm số nguyên</label>
+                <input type="text" id="themso9" class="form-control" placegolder="Thêm số">
+            </div>
+            <button id="btn9" class="btn btn-success">Kết quả</button>
+            <div id="ketqua9" class="mt-2 alert alert-success"></div>
+        </div>
+        <div class="col-4 m-3">
+            <!-- Bài 10 ---------------------------------------->
+            <h3>Bài 10:</h3>
+            <div class="form-group">
+                <label for="">So sánh số lượng số âm và dương</label>
+                <input type="text" id="themso10" class="form-control" placegolder="Thêm số">
+            </div>
+            <button id="btn10" class="btn btn-success">Kết quả</button>
+            <div id="ketqua10" class="mt-2 alert alert-success"></div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
+
+
+
